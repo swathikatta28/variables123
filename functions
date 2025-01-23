@@ -1,0 +1,101 @@
+Function return:
+The return statement that can be used to return the value to function call
+Example:
+Function a(aa ,bb){
+return aa+bb;
+}
+let n1=parseFloat(prompt(“enter a number:”) 
+let n2=parseFloat(prompt(“enter a number:”) 
+//Calling a function
+let result = a(n1,n2);
+//display the result
+console.log(“The sum is: ”+result)
+Anomymous functions:
+A Function without name ,After we create a function without name and we assign it to a variable
+Ex:
+Sum=function(n1,n2)
+let r = n1+n2
+return r 
+}
+Console.log(sum(8,9))
+Topic:Functions
+A Function is a reusable block of code
+It can be called any where in the Program
+Reusable code:using an existing code without writing it ever we need
+You can use the same code with different arguments to get the results
+JS:
+KeyWord=function
+( )
+Parameters=values which are declared inside ( )
+While defining a functions
+Arguments=values which are passed through the parameters
+
+
+Syntax:
+Unit set of functions which are used to create the program
+Function function_name(){
+-----`block of code’
+}
+function_name()to print
+Ex:
+<script>
+        function greet(){
+            console.log("Hello World")
+        }
+        greet()
+    </script>
+Output:
+Hello World
+Ex:
+<script>
+        function greet(){
+            console.log("Hello World")
+        }
+        greet()
+        console,log("Hello India")
+        greet()
+    </script>
+Output:
+Hello World
+Hello India
+Ex:Function with Parameters
+//Function with parameters
+        function g(name){
+            console.log("hello "+name)
+        }
+        let name=prompt("Enter your name:")
+        g(name)
+Output:
+Enter your name: sita
+Hello sita
+Ex: write a function to add two numbers 
+function add(a,b){
+            console.log(a+b)
+        }
+        let a=prompt("Enter the a:")
+        let b=prompt("Enter the b:")
+        add(a,b)
+Output:
+Enter the a:3
+Enter the b:4
+7
+Function return:
+The return statement that can be used to return the value to function call
+Example:
+Function a(aa ,bb){
+return aa+bb;
+}
+let n1=parseFloat(prompt(“enter a number:”) 
+let n2=parseFloat(prompt(“enter a number:”) 
+//Calling a function
+let result = a(n1,n2);
+//display the result
+console.log(“The sum is: ”+result)
+Anomymous functions:
+A Function without name ,After we create a function without name and we assign it to a variable
+Ex:
+Sum=function(n1,n2)
+let r = n1+n2
+return r 
+}
+Console.log(sum(8,9))
