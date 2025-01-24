@@ -1,0 +1,105 @@
+Arrow Functions:
+Es6 version
+more readable and more structure
+annonymous function name but they are assigned to a variable
+
+Ex:
+<script>
+        let c=()=>{
+            console.log("Hi")
+        }
+        c()
+    </script>
+Output:
+Hi
+Arrow functions with parameters
+Ex:
+let x=(x,y)=>{
+            console.log(x+y)
+        }
+        x(20,30)
+        x(40,50)
+output:
+50 
+90
+Arrow Function with one argument
+let greet=x=>console.log(x);
+        greet("Hello")
+Output:
+Hello
+Arrow function without argument
+let greet1=()=>console.log("Hello");
+        greet1()
+Output:
+Hello
+Arrow functions as an argument
+let 18;
+        let welcome =(a<18)?
+        ()=>conso:e.log("Hi Amrutha");
+        ()=>console.log("hi ammu");
+        welcome()
+
+Synchronous:
+step by step
+one task
+function task1(){
+            console.log("Task1: Start")
+        }
+        function task2(){
+            console.log("Task2: Start")
+        }
+        function task3(){
+            console.log("Task3: Start")
+        }
+        task1()
+        task2()
+        task3()
+Output:
+Task3: Start
+Task3: Start
+Task3: Start
+Asynchronous:
+multiple tasks
+without waiting it does the execution
+Ex:
+console.log("hi");
+        setTimeout(()=>{
+            console.log("iam waiting")
+        },5000);
+        console.log("Iam in lab")
+Output:
+hi
+Iam in lab
+#after 5 seconds
+Iam waiting
+Java script Call back functions:
+A call back function is a function that is passed argument to another function
+Ex:
+function greet(name,callback){
+            console.log(Hello,${name})
+            callback();
+            //this callback function after greeting
+        }
+        function sayGoodbye(){
+            console.log("GoodBye")
+        }
+        //call greet and pass sayGoodBye as the callback
+        greet("sam" ,sayGoodbye)
+Output:
+Hello,sam
+GoodBye
+Promise:
+Three states
+1)Pending : still not completed –continuing
+2)fulfilled:task completed
+3)Rejected:The operation is failed
+Ex:
+ let myPromise =new Promise((resolve ,reject)=>
+        {
+            let success=true;
+            if(success){
+            resolve("task completed")
+        }else{
+            reject("task failed")
+        }
+    })
